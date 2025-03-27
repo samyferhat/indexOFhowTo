@@ -1,0 +1,26 @@
+/* Highlight styles */
+.highlight-orange {
+  color: orange;
+}
+
+.highlight-red {
+  color: red;
+}
+
+.highlight-green {
+  color: green;
+}
+
+.highlight-blue {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body {
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 50vw;
+}
