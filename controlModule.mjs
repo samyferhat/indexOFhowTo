@@ -80,6 +80,7 @@ export const ControlModule = {
       } else {
         if (this.sequence2Index != 0) {
           // reset sequence2 and go back to the beginning of sequence1
+          this.sequence1Index = this.sequence1Index - this.sequence2Index +1;
           this.sequence2Index = 0; // Reset sequence2 to the beginning
         } else {
           this.sequence1Index++;
